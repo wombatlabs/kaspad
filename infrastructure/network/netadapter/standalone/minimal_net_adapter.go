@@ -3,16 +3,16 @@ package standalone
 import (
 	"sync"
 
-	"github.com/kaspanet/kaspad/app/protocol/common"
-	"github.com/kaspanet/kaspad/util/mstime"
+	"github.com/wombatlabs/kaspad/app/protocol/common"
+	"github.com/wombatlabs/kaspad/util/mstime"
 
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter/id"
+	"github.com/wombatlabs/kaspad/infrastructure/network/netadapter/id"
 
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter/router"
+	"github.com/wombatlabs/kaspad/app/appmessage"
+	"github.com/wombatlabs/kaspad/infrastructure/network/netadapter/router"
 
-	"github.com/kaspanet/kaspad/infrastructure/config"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter"
+	"github.com/wombatlabs/kaspad/infrastructure/config"
+	"github.com/wombatlabs/kaspad/infrastructure/network/netadapter"
 
 	"github.com/pkg/errors"
 )

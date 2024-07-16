@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/mining"
+	"github.com/wombatlabs/kaspad/app/appmessage"
+	"github.com/wombatlabs/kaspad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/kaspad/domain/consensus/utils/mining"
 )
 
 func mineNextBlock(t *testing.T, harness *appHarness) *externalapi.DomainBlock {

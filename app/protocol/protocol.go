@@ -1,20 +1,20 @@
 package protocol
 
 import (
-	"github.com/kaspanet/kaspad/app/protocol/common"
-	"github.com/kaspanet/kaspad/app/protocol/flows/ready"
-	"github.com/kaspanet/kaspad/app/protocol/flows/v5"
+	"github.com/wombatlabs/kaspad/app/protocol/common"
+	"github.com/wombatlabs/kaspad/app/protocol/flows/ready"
+	"github.com/wombatlabs/kaspad/app/protocol/flows/v5"
 	"sync"
 	"sync/atomic"
 
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/app/protocol/flows/handshake"
-	peerpkg "github.com/kaspanet/kaspad/app/protocol/peer"
-	"github.com/kaspanet/kaspad/app/protocol/protocolerrors"
-	"github.com/kaspanet/kaspad/infrastructure/network/addressmanager"
-	"github.com/kaspanet/kaspad/infrastructure/network/connmanager"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter"
-	routerpkg "github.com/kaspanet/kaspad/infrastructure/network/netadapter/router"
+	"github.com/wombatlabs/kaspad/app/appmessage"
+	"github.com/wombatlabs/kaspad/app/protocol/flows/handshake"
+	peerpkg "github.com/wombatlabs/kaspad/app/protocol/peer"
+	"github.com/wombatlabs/kaspad/app/protocol/protocolerrors"
+	"github.com/wombatlabs/kaspad/infrastructure/network/addressmanager"
+	"github.com/wombatlabs/kaspad/infrastructure/network/connmanager"
+	"github.com/wombatlabs/kaspad/infrastructure/network/netadapter"
+	routerpkg "github.com/wombatlabs/kaspad/infrastructure/network/netadapter/router"
 	"github.com/pkg/errors"
 )
 

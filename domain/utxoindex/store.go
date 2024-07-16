@@ -3,10 +3,10 @@ package utxoindex
 import (
 	"encoding/binary"
 
-	"github.com/kaspanet/kaspad/domain/consensus/database/binaryserialization"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/infrastructure/db/database"
-	"github.com/kaspanet/kaspad/infrastructure/logger"
+	"github.com/wombatlabs/kaspad/domain/consensus/database/binaryserialization"
+	"github.com/wombatlabs/kaspad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/kaspad/infrastructure/db/database"
+	"github.com/wombatlabs/kaspad/infrastructure/logger"
 	"github.com/pkg/errors"
 )
 

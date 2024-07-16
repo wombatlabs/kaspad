@@ -6,9 +6,9 @@ import (
 	"strings"
 
 	"github.com/kaspanet/go-secp256k1"
-	"github.com/kaspanet/kaspad/cmd/kaspawallet/libkaspawallet/bip32"
-	"github.com/kaspanet/kaspad/domain/dagconfig"
-	"github.com/kaspanet/kaspad/util"
+	"github.com/wombatlabs/kaspad/cmd/kaspawallet/libkaspawallet/bip32"
+	"github.com/wombatlabs/kaspad/domain/dagconfig"
+	"github.com/wombatlabs/kaspad/util"
 	"github.com/pkg/errors"
 )
 

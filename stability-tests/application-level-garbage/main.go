@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/kaspanet/kaspad/infrastructure/config"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter/standalone"
-	"github.com/kaspanet/kaspad/stability-tests/common"
-	"github.com/kaspanet/kaspad/util/panics"
-	"github.com/kaspanet/kaspad/util/profiling"
+	"github.com/wombatlabs/kaspad/infrastructure/config"
+	"github.com/wombatlabs/kaspad/infrastructure/network/netadapter/standalone"
+	"github.com/wombatlabs/kaspad/stability-tests/common"
+	"github.com/wombatlabs/kaspad/util/panics"
+	"github.com/wombatlabs/kaspad/util/profiling"
 )
 
 func main() {

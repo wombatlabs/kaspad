@@ -1,13 +1,13 @@
 package rpccontext
 
 import (
-	"github.com/kaspanet/kaspad/app/protocol"
-	"github.com/kaspanet/kaspad/domain"
-	"github.com/kaspanet/kaspad/domain/utxoindex"
-	"github.com/kaspanet/kaspad/infrastructure/config"
-	"github.com/kaspanet/kaspad/infrastructure/network/addressmanager"
-	"github.com/kaspanet/kaspad/infrastructure/network/connmanager"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter"
+	"github.com/wombatlabs/kaspad/app/protocol"
+	"github.com/wombatlabs/kaspad/domain"
+	"github.com/wombatlabs/kaspad/domain/utxoindex"
+	"github.com/wombatlabs/kaspad/infrastructure/config"
+	"github.com/wombatlabs/kaspad/infrastructure/network/addressmanager"
+	"github.com/wombatlabs/kaspad/infrastructure/network/connmanager"
+	"github.com/wombatlabs/kaspad/infrastructure/network/netadapter"
 )
 
 // Context represents the RPC context

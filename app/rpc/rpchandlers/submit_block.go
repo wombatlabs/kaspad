@@ -2,12 +2,12 @@ package rpchandlers
 
 import (
 	"encoding/json"
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/app/protocol/protocolerrors"
-	"github.com/kaspanet/kaspad/app/rpc/rpccontext"
-	"github.com/kaspanet/kaspad/domain/consensus/ruleerrors"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/consensushashing"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter/router"
+	"github.com/wombatlabs/kaspad/app/appmessage"
+	"github.com/wombatlabs/kaspad/app/protocol/protocolerrors"
+	"github.com/wombatlabs/kaspad/app/rpc/rpccontext"
+	"github.com/wombatlabs/kaspad/domain/consensus/ruleerrors"
+	"github.com/wombatlabs/kaspad/domain/consensus/utils/consensushashing"
+	"github.com/wombatlabs/kaspad/infrastructure/network/netadapter/router"
 	"github.com/pkg/errors"
 )
 

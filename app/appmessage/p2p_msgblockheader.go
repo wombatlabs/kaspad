@@ -7,10 +7,10 @@ package appmessage
 import (
 	"math/big"
 
-	"github.com/kaspanet/kaspad/domain/consensus/utils/consensushashing"
+	"github.com/wombatlabs/kaspad/domain/consensus/utils/consensushashing"
 
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/util/mstime"
+	"github.com/wombatlabs/kaspad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/kaspad/util/mstime"
 )
 
 // BaseBlockHeaderPayload is the base number of bytes a block header can be,

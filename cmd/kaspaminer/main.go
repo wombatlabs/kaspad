@@ -4,17 +4,17 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/kaspanet/kaspad/util"
+	"github.com/wombatlabs/kaspad/util"
 
-	"github.com/kaspanet/kaspad/version"
+	"github.com/wombatlabs/kaspad/version"
 
 	"github.com/pkg/errors"
 
 	_ "net/http/pprof"
 
-	"github.com/kaspanet/kaspad/infrastructure/os/signal"
-	"github.com/kaspanet/kaspad/util/panics"
-	"github.com/kaspanet/kaspad/util/profiling"
+	"github.com/wombatlabs/kaspad/infrastructure/os/signal"
+	"github.com/wombatlabs/kaspad/util/panics"
+	"github.com/wombatlabs/kaspad/util/profiling"
 )
 
 func main() {

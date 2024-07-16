@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 	"github.com/kaspanet/go-secp256k1"
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/mining"
-	"github.com/kaspanet/kaspad/util"
+	"github.com/wombatlabs/kaspad/app/appmessage"
+	"github.com/wombatlabs/kaspad/domain/consensus/utils/mining"
+	"github.com/wombatlabs/kaspad/util"
 	"math/rand"
 	"os"
 	"os/exec"
@@ -15,10 +15,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/kaspanet/kaspad/stability-tests/common"
-	"github.com/kaspanet/kaspad/stability-tests/common/rpc"
-	"github.com/kaspanet/kaspad/util/panics"
-	"github.com/kaspanet/kaspad/util/profiling"
+	"github.com/wombatlabs/kaspad/stability-tests/common"
+	"github.com/wombatlabs/kaspad/stability-tests/common/rpc"
+	"github.com/wombatlabs/kaspad/util/panics"
+	"github.com/wombatlabs/kaspad/util/profiling"
 	"github.com/pkg/errors"
 )
 

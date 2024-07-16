@@ -7,17 +7,17 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/kaspanet/kaspad/infrastructure/config"
-	"github.com/kaspanet/kaspad/infrastructure/db/database"
-	"github.com/kaspanet/kaspad/infrastructure/db/database/ldb"
-	"github.com/kaspanet/kaspad/infrastructure/logger"
-	"github.com/kaspanet/kaspad/infrastructure/os/execenv"
-	"github.com/kaspanet/kaspad/infrastructure/os/limits"
-	"github.com/kaspanet/kaspad/infrastructure/os/signal"
-	"github.com/kaspanet/kaspad/infrastructure/os/winservice"
-	"github.com/kaspanet/kaspad/util/panics"
-	"github.com/kaspanet/kaspad/util/profiling"
-	"github.com/kaspanet/kaspad/version"
+	"github.com/wombatlabs/kaspad/infrastructure/config"
+	"github.com/wombatlabs/kaspad/infrastructure/db/database"
+	"github.com/wombatlabs/kaspad/infrastructure/db/database/ldb"
+	"github.com/wombatlabs/kaspad/infrastructure/logger"
+	"github.com/wombatlabs/kaspad/infrastructure/os/execenv"
+	"github.com/wombatlabs/kaspad/infrastructure/os/limits"
+	"github.com/wombatlabs/kaspad/infrastructure/os/signal"
+	"github.com/wombatlabs/kaspad/infrastructure/os/winservice"
+	"github.com/wombatlabs/kaspad/util/panics"
+	"github.com/wombatlabs/kaspad/util/profiling"
+	"github.com/wombatlabs/kaspad/version"
 )
 
 const (
